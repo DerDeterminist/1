@@ -3,12 +3,35 @@ import java.util.*;
 public class Random_Stuff {
     public static void main(String[] args) {
 
-        String s = "asdfasdfasdf";
-        System.out.println(s.substring(0,s.indexOf('f')));
+       String a = "81";
+        System.out.println((char)Integer.parseInt(a));
 
 
-
-
+//        for (int j=0;j<3;j++) {
+//            for (int i = 0; i < 10; i++) {
+//                if (i == 0&&j==0) {
+//                    System.out.print("┌");
+//                }
+//                if (i == 10&&j==0) {
+//                    System.out.println("┐");
+//                }
+//                if (i==0&&j==2){
+//                    System.out.print("└");
+//                }
+//                if (i==10&&j==2){
+//                    System.out.println("┘");
+//                }
+//                if (i==10&&j==2){
+//                    System.out.println("│");
+//                }
+//                if (i<10&&i>1&&(j==0||j==2)){
+//                    System.out.print("─");
+//                }
+//                if ((i==0||i==10)&&j==1){
+//                    System.out.print("│");
+//                }
+//            }
+//        }
 
 
 
